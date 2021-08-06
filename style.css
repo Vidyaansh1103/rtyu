@@ -1,0 +1,41 @@
+body{
+    text-align: center;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+#video{
+    width: 100%;
+    height: 600px;
+    border: solid;
+}
+
+.row ::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.travel_mainDiv{
+    float: left;
+    width: 30%;
+    padding: 10px;
+    border: 1px solid grey;
+}
+
+.travel_mainDiv img{
+    width: 100%;
+    height: 400px;
+}
+
+.travel_mainDiv hr{
+    width: 100%;
+}
+
+#school_achievement1{
+    padding-bottom: 20px;
+}
+    
+
+    
